@@ -1,0 +1,5 @@
+controllers:
+    resource:
+        path: ../src/Infra/Symfony/Controller/
+        namespace: Infra\Symfony\Controller
+    type: attribute

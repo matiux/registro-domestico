@@ -1,0 +1,7 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+
+    Infra\Symfony\Controller\:
+        resource: '%kernel.project_dir%/src/Infra/Symfony/Controller'

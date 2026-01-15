@@ -1,0 +1,57 @@
+###> Docker ###
+docker/docker-compose.override.yml
+docker/.env
+###< Docker ###
+
+###> Misc ###
+.idea
+Http/*-client.private.env.json
+###< Misc ###
+
+###> symfony/framework-bundle ###
+/.env.local
+/.env.local.php
+/.env.*.local
+/config/secrets/prod/prod.decrypt.private.php
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+
+###> friendsofphp/php-cs-fixer ###
+.php_cs
+.php-cs-fixer.cache
+.php_cs.cache
+lsp
+###< friendsofphp/php-cs-fixer ###
+
+###> phpunit ###
+.phpunit
+.phpunit.result.cache
+/phpunit.xml
+###< phpunit ###
+
+###> code coverage ###
+/public/*.svg
+public/coverage-badge.svg
+.coverage
+###< code coverage ###
+###> qossmic/deptrac-shim ###
+/.deptrac.cache
+###< qossmic/deptrac-shim ###
+
+config/json/neprix/
+**/.DS_Store
+tools/infection/infection.local.json
+
+###> lexik/jwt-authentication-bundle ###
+/config/jwt/*.pem
+###< lexik/jwt-authentication-bundle ###
+###> phpunit/phpunit ###
+/phpunit.xml
+/.phpunit.cache/
+###< phpunit/phpunit ###
+
+# Structurizr local files
+docs/.structurizr/
+docs/workspace.json

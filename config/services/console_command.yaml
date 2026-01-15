@@ -1,0 +1,7 @@
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+
+  RegistroContabile\Infra\Symfony\ConsoleCommand\:
+      resource: '%kernel.project_dir%/src/RegistroContabile/Infra/Symfony/ConsoleCommand'
