@@ -16,14 +16,6 @@
 - CQRS-first
 - Event Bus interno
 
----
-## Principi architetturali chiave
-
-- Ogni sottodominio mantiene il **proprio modello**
-- Nessun sottodominio accede direttamente ai dati di un altro
-- L’integrazione avviene **solo tramite eventi**
-- La duplicazione è preferita all’accoppiamento
-
 ## Diagrammi
 
 ### Contesto del sistema

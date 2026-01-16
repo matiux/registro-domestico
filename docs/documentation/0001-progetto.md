@@ -92,15 +92,3 @@ Una **uscita** può essere:
         - **`AcquistoRegistrato`**
 6. Il Registro Contabile riceve l’evento e:
     - marca la spesa come **inventario collegato**
-
----
-## Stato del progetto
-
-- progetto **in fase di modellazione**
-- focus iniziale su:
-    - Registro Contabile
-    - integrazione con Inventario
-- evoluzione guidata da:
-    - casi d’uso reali
-    - principi CQRS
-    - chiarezza del dominio
