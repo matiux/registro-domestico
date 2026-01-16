@@ -21,9 +21,7 @@ Il progetto richiede tracciabilita e continuita nelle decisioni architetturali. 
 
 ## Opzioni considerate
 
-* ADR in Markdown nel repository.
-* Decisioni registrate solo nelle issue.
-* Documentazione informale in wiki esterna.
+* Nessuna altra decisione considerata.
 
 ## Preoccupazioni e obiezioni
 

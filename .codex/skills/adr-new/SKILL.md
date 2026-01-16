@@ -5,11 +5,11 @@ description: Crea un nuovo ADR in docs/decisions usando il template ufficiale e 
 
 ## Input richiesto (chiedili all'utente se mancano)
 - Titolo ADR (breve)
-- Contesto e definizione del problema (2-5 frasi)
-- Fattori decisionali (2-6 bullet)
-- Opzioni considerate (2-6 bullet)
+- Contesto e definizione del problema
+- Fattori decisionali
+- Opzioni considerate
 - Opzione scelta (deve essere una delle opzioni considerate)
-- Giustificazione (1-3 frasi)
+- Giustificazione
 
 ## Regole (obbligatorie)
 - Usa il template: docs/decisions/_templates/adr-template.md
@@ -17,7 +17,7 @@ description: Crea un nuovo ADR in docs/decisions usando il template ufficiale e 
 - NNNN = prossimo numero disponibile (4 cifre, progressivo)
 - Slug = kebab-case
 - Imposta:
-  - Status: proposed
+  - Status: Proposed
   - Data: data odierna con orario (YYYY-MM-DD HH:MM:SS)
   - Data di accettazione: -
 - NON modificare il template.
@@ -26,7 +26,6 @@ description: Crea un nuovo ADR in docs/decisions usando il template ufficiale e 
 - Non lasciare nel file testo segnaposto del template, ad esempio righe che contengono:
   `[ad esempio`, `[etc.]`, `[opzione`, `<!-- opzionale -->`.
 - Se non ci sono contenuti reali per una sezione opzionale, rimuovi l'intera sezione (titolo incluso) invece di lasciare placeholder.
-
 
 ## Output
 1) Nuovo file ADR creato e compilato.

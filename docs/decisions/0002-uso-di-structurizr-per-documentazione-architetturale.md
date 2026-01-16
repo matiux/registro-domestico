@@ -22,9 +22,7 @@ Il progetto necessita di una documentazione architetturale coerente, versionata 
 
 ## Opzioni considerate
 
-* Wiki esterna
-* README sparsi nel repository
-* Structurizr (DSL + markdown)
+* Nessuna altra decisione considerata.
 
 ## Preoccupazioni e obiezioni
 

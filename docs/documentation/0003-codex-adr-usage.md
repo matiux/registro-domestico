@@ -11,8 +11,13 @@ Puoi chiedere direttamente a Codex di creare l'ADR specificando titolo, status e
 ```
 Crea un nuovo ADR in docs/decisions usando il template in docs/decisions/_templates/adr-template.md.
 Titolo: CQRS come Architecture Style
-Status: Accepted
-Nelle sezioni, compila con testo breve e sensato (2-3 bullet per fattori/opzioni) basandoti sulla chat "Libro: CQRS by Examples"
+Status: Proposed
+Nelle sezioni, compila con testo sufficientemente approfondito basandoti sulla chat "Libro: CQRS by Examples".
+I fattori decisionali sono i seguenti: ...
+Non ci sono altre opzioni considerate.
+Non ci sono preoccupazioni.
+Non ci sono obiezioni.
+Il risultato della decisione è: ...
 Mostrami il diff.
 ```
 

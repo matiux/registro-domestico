@@ -21,8 +21,6 @@ La crescita del dominio richiede ridurre l'accoppiamento tra letture e scritture
 
 ## Opzioni considerate
 
-* Monolite CRUD con modello unico
-* CQRS con modelli e percorsi separati
 * Microservizi per separare lettura e scrittura
 
 ## Risultato della decisione
